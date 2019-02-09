@@ -1,0 +1,159 @@
+/*![CDATA[*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url('images/pattern1.png');
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #06376C;
+}
+#kontener
+{
+    width: 1004px;
+    margin: 0 auto;
+    
+}
+
+/* GÓRNA CZĘŚĆ KONTENERA */
+
+#gorna_czesc_kontenera
+{
+    position: relative;
+    margin-top: 10px;
+    width: 944px;
+    height: 250px;
+}
+img.logo
+{
+    position: absolute;
+    border: 0;
+    left: 0px;
+    top: 0px;				
+}
+#kontakt
+{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    line-height: 150%; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+#kontakt a
+{
+    border-bottom: none;
+}
+
+/* MENU GÓRNE */
+
+#menu_gorne
+{
+    position: absolute;
+    left: 166px;
+    bottom: 0px;
+}
+#wlasciwe_menu_gorne li
+{
+    list-style-type: none;
+    float: left;
+}
+#wlasciwe_menu_gorne li a
+{
+    background-image: url('images/link.png');
+    height: 31px;
+    display: inline-block;
+    border-bottom: none;
+    padding: 0px 37.37px;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+#wlasciwe_menu_gorne li a:hover
+{
+    background-image: url('images/hover.png');
+    color: #cccccc;
+}
+span.link
+{
+    display: inline-block;
+    margin-top: 8px;
+}
+
+/* ŚRODKOWA CZĘŚĆ STRONY */
+
+#tresc
+{
+    width: 944px;
+     
+}
+#tresc li
+{
+    list-style-type: none;
+}
+#gorny_pasek
+{
+    background-image: url('images/pasek.png');
+    width: 944px;
+    height: 17px;
+    opacity: 0.5;
+}
+#srodkowa_czesc
+{
+    background-color: rgba(5, 81, 116, 0.3);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;  
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+    height: 400px;
+}
+#hello
+{
+    font-size: 20px;
+    text-align: left;
+    padding: 100px;
+    line-height: 150%;
+}
+#przywitanie
+{
+    text-align: center;
+}
+#dolna_czesc_strony
+{
+    width: 944px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+#copyright
+{
+    
+    font-size: 10px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 944px;
+    height: 15px;
+}
+#hobby
+{
+    margin-left: 20px;
+    line-height: 170%;
+}
+#hobby ul.podlista li.ppodlista
+{
+    margin-left: 30px;
+    font-style: italic;
+}
